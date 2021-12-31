@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,700);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,700;1,100;1,700&family=Roboto:wght@100;300&display=swap');
 *{
   box-sizing:border-box;
 }
@@ -12,6 +13,7 @@ body{
   font-weight: 400;
   font-size: 1em;
   font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
 }
 
 .container, figure{
@@ -23,7 +25,7 @@ body{
   position:absolute;
   perspective:1000;
   margin-top:-135px;
-  top:50%;
+  top:230px;
 }
 
 .card{
@@ -247,15 +249,40 @@ figure a{
 }
 
 
-a:link, a:visited {
-  background-color: SeaGreen;
+.card-link:link, 
+.card-link:visited {
+  background-color: MediumSeaGreen;
   color: white;
+  margin: 30px;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 40px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.9);
 }
 
-a:hover, a:active {
-  background-color: green;
+.card-link:hover, 
+.card-link:active {
+  background-color: SeaGreen;
 }
+
+
+.section_container{
+  position: relative;
+}
+
+.button__style {
+  position: absolute;
+  top: 400px;
+  left: 540px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight:  700;
+  font-size: 4rem;
+  color: #818181;
+  letter-spacing: 1;
+}
+
